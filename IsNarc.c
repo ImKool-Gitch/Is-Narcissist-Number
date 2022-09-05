@@ -20,7 +20,7 @@ int main()
     char num[500];
     printf("Enter a number: ");
     scanf("%s", num);
-    if (isnarc(num)) printf("The number %d is a narcissist number\n", atoi(num));
-    else printf("The number %d is not a narcissist number\n", atoi(num));
+    if (isnarc(num)) printf("The number %d is a narcissistic number\n", atoi(num));
+    else printf("The number %d is not a narcissistic number\n", atoi(num));
     return 0;
 }
